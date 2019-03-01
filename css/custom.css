@@ -1,0 +1,196 @@
+body {
+  background-color: #8e7c68; }
+
+.container {
+  max-width: 2500px;
+  margin: 0 auto; }
+  .container::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.container-wrap .nav-container {
+  text-align: center;
+  position: fixed;
+  z-index: 2000;
+  top: 0; }
+  .container-wrap .nav-container ul {
+    margin: 0;
+    padding: 0; }
+    .container-wrap .nav-container ul li {
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 33.33333%;
+      margin-left: 0%;
+      margin-right: 0%;
+      list-style: none;
+      padding: 20px 0;
+      background-color: #6d533d;
+      border-right: 2px solid #4e3725;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-transition: all ease .3s;
+      -o-transition: all ease .3s;
+      -moz-transition: all ease .3s;
+      transition: all ease .3s; }
+      .container-wrap .nav-container ul li::after {
+        content: '';
+        display: table;
+        clear: both; }
+      .container-wrap .nav-container ul li:last-child {
+        border-right: none; }
+      .container-wrap .nav-container ul li:hover {
+        cursor: pointer;
+        padding: 25px 0;
+        -webkit-transition: all ease .3s;
+        -o-transition: all ease .3s;
+        -moz-transition: all ease .3s;
+        transition: all ease .3s; }
+    .container-wrap .nav-container ul .active-item {
+      background-color: #4e3725;
+      -webkit-transition: all ease .3s;
+      -o-transition: all ease .3s;
+      -moz-transition: all ease .3s;
+      transition: all ease .3s; }
+      .container-wrap .nav-container ul .active-item:hover {
+        padding: 20px 0;
+        cursor: default; }
+
+.header-container .header .slick-slider .slide {
+  text-align: center; }
+  .header-container .header .slick-slider .slide img {
+    -webkit-filter: sepia(100%);
+            filter: sepia(100%);
+    display: inline-block; }
+
+.main-container .main .english-container h1:first-child {
+  text-align: center; }
+
+.main-container .main .english-container p:last-child {
+  text-align: justify; }
+
+.main-container .main .english-container .bottoms {
+  background-color: #6d533d;
+  margin-top: 50px;
+  padding: 20px 0; }
+
+.main-container .main .english-container .download-all {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 33.33333%;
+  margin-left: 12.5%;
+  margin-right: 0%;
+  text-align: center; }
+  .main-container .main .english-container .download-all::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.main-container .main .english-container .download-single {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 33.33333%;
+  margin-left: 10%;
+  margin-right: 0%;
+  text-align: center; }
+  .main-container .main .english-container .download-single::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.jp-playlist {
+  height: 100px;
+  overflow: auto; }
+
+#jp_container_1, #jp_container_2, #jp_container_3 {
+  width: 100%; }
+
+.jp-interface {
+  background-color: #6d533d; }
+
+.jp-video .jp-controls-holder {
+  background-color: #6d533d; }
+
+.jp-video {
+  background-color: #6d533d; }
+
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+  background-color: #4e3725;
+  border-top: 1px solid #4e3725;
+  border-bottom: 1px solid #4e3725; }
+  div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
+    color: black; }
+
+.jp-playlist li {
+  border-top: 1px solid #4e3725;
+  border-bottom: 1px solid #4e3725;
+  padding: 5px 0; }
+
+div.jp-type-playlist div.jp-playlist a {
+  font-size: 15px;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s; }
+  div.jp-type-playlist div.jp-playlist a:hover {
+    color: black;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s; }
+
+.scrollbar-chrome > .scroll-element .scroll-element_track {
+  background-color: #6d533d;
+  border: 1px solid #6d533d; }
+
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-element_outer {
+  border-top: 1px solid #6d533d; }
+
+.scrollbar-chrome > .scroll-element .scroll-bar {
+  background-color: #8e7c68;
+  border: 1px solid #8e7c68; }
+
+div.jp-video .jp-progress {
+  border-bottom: none; }
+
+.footer-container {
+  background-color: #6d533d;
+  text-align: center;
+  margin-top: 100px;
+  padding: 50px 0; }
+
+@media (min-width: 368px) {
+  .container {
+    width: 350px; }
+  .jp-video .jp-controls-holder {
+    width: 320px; } }
+
+@media (min-width: 568px) {
+  .container {
+    width: 550px; }
+  .jp-video .jp-controls-holder {
+    width: 440px; } }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1380px; } }
+
+@media (min-width: 1620px) {
+  .container {
+    width: 1600px; } }
